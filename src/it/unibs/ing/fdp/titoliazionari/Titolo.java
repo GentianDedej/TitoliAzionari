@@ -4,10 +4,9 @@ import java.io.Serializable;
 
 import it.unibs.fp.mylib.NumeriCasuali;
 /**
- * 
- * @author Gentian & Peter
- *
+ * @author Gentian&Peter
  */
+
 public class Titolo implements Serializable {
 	
 	private String nome;

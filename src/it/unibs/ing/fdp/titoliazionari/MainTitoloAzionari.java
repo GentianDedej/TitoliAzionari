@@ -16,9 +16,6 @@ public class MainTitoloAzionari {
 	
 	
 	private static final String FILE_CARICATO_CORRETTAMENTE = "File caricato correttamente";
-	/**
-	 * @param args
-	 */
 	private final static String NOMEFILE = "dati.dat";
 	private final static String MSG_NO_CAST = "ERRORE CON IL CAST PER ASSEGNAMENTO ELEMENTI";
 	private static final String MSG_NON_TROVATO_SALVATAGGI = "Nessun file trovato in memoria, crazione nuovo file";
@@ -86,13 +83,7 @@ public class MainTitoloAzionari {
 					 System.out.println(portafoglio.toString());
 					 break;
 					}
-				case 2:
-				{/*
-					listaTitoli=UtilitaTitoli.aggiornaElencoTitoli(listaTitoli);
-					portafoglio =UtilitaTitoli.creaPortafoglio(listaTitoli);*/
-				}
 				    
-					break;
 				 case 0:
 					 System.out.println(UtilitaTitoli.MSG_SALVA);
 					 contenitore = new Contenitore(listaTitoli,portafoglio);

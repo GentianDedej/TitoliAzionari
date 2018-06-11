@@ -1,6 +1,9 @@
 package it.unibs.ing.fdp.titoliazionari;
 
 import java.io.Serializable;
+/**
+ * @author Gentian&Peter
+ */
 
 public class Lotto implements Serializable {
 	private Titolo azione ;
@@ -37,7 +40,7 @@ public class Lotto implements Serializable {
 	}
 	/**
 	 * this method is use for get the value of the lot
-	 * @return quantity * stock'price
+	 * @return quantity * stock price
 	 */
 	public double valore ()
 	{

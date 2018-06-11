@@ -1,5 +1,9 @@
 package it.unibs.ing.fdp.titoliazionari;
 import java.io.Serializable;
+/**
+ * @author Gentian&Peter
+ */
+
 
 public class Contenitore implements Serializable{
 	/*
@@ -9,7 +13,7 @@ public class Contenitore implements Serializable{
 	private Portafoglio portafoglio;
 	/**
 	 * This is the constructor of a Class that is use for contain the stocks's list and the wallet 
-	 * @param _elencoTitoli	stock's list
+	 * @param _elencoTitoli	stocks list
 	 * @param _portafoglio	wallet
 	 */
 	public Contenitore (ElencoTitoli _elencoTitoli, Portafoglio _portafoglio)
@@ -19,7 +23,7 @@ public class Contenitore implements Serializable{
 		
 	}
 	/**
-	 * 
+	 * Method for get the stocks list
 	 * @return stocks's list
 	 */
 	
@@ -27,7 +31,10 @@ public class Contenitore implements Serializable{
 	{
 		return elencoTitoli;
 	}
-	
+	/**
+	 * Method use for get wallet
+	 * @return wallet
+	 */
 	public Portafoglio getPortafoglio()
 	{
 		return portafoglio;

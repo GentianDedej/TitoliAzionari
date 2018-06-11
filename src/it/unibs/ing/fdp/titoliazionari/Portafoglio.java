@@ -11,7 +11,9 @@ public class Portafoglio implements Serializable {
 	private final static String DESC_DENOMINAZIONE = "PORTAFOGLIO: %s %n";
 	private final static String INTRO_COMPOSIZIONE = "COMPOSTO:\n";
 	private final static String DESC_TOTALE = "VALORE TOTALE= %1.2f";
-	
+	/**
+	 * @author Gentian&Peter
+	 */
 	/**
 	 * 
 	 * @param nome name of the wallet

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import it.unibs.fp.mylib.InputDati;
 /**
  * 
- * @author Gentian & Peter
+ * @author Gentian&Peter
  *
  */
 
@@ -51,6 +51,9 @@ public class ElencoTitoli implements Serializable {
 		}
 		return valore;
 	}
+	/**
+	 * Method toString for describe stocks list
+	 */
 	public String toString ()
 		{
 		 StringBuffer result = new StringBuffer();
@@ -63,10 +66,18 @@ public class ElencoTitoli implements Serializable {
 			
 		 return result.toString();
 	}
-	
+	/**
+	 * 
+	 * @return Stocks's list
+	 */
 	public int numTitoli() {
 		return insieme.size();
 	}
+	/**
+	 * Method for get the stocks in any position
+	 * @param i i is the index of stock to get
+	 * @return the stock in index position
+	 */
 	public Titolo getTitolo (int i)
 		{
 		 return insieme.get(i);

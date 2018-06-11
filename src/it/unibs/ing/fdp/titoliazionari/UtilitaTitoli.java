@@ -7,7 +7,7 @@ import it.unibs.fp.mylib.ServizioFile;
 
 /**
  * 
- * @author Gentian & Peter
+ * @author Gentian&Peter
  *
  */
 public class UtilitaTitoli {
